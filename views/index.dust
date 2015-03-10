@@ -1,0 +1,14 @@
+
+Page Title: {title}
+
+{age}
+
+<h2>New Line (not a br tag)</h2>
+Break{~n}Up{~n}The{~n}Make{~n}Up
+
+<h2>Conditional</h2>
+<p>{likesPopcorn}</p>
+
+{?isEnabled}I am enabled{/isEnabled} <br />
+
+{?likesPopcorn}I like popcorn{:else}I dont like popcorn{/likesPopcorn}
